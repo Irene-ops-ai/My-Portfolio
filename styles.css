@@ -1,0 +1,150 @@
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #f1f1f1;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Golden theme accent */
+h1, h2 {
+  color: gold;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+}
+
+ul, p {
+  margin-bottom: 20px;
+}
+
+/* Section containers */
+div {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.1);
+}
+
+/* Header section */
+header {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.ul li {
+  margin-left: 20px;
+  color: #e0e0e0;
+}
+
+/* About Me Image */
+img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+/* Project section */
+.Projects {
+  font-size: 1.5em;
+  color: gold;
+}
+
+a.project {
+  display: inline-block;
+  color: #ffd700;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+a.project:hover {
+  text-decoration: underline;
+  color: #fffacd;
+}
+
+p.project {
+  color: #ccc;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+/* Contact form */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #2e2e2e;
+  border: 1px solid #444;
+  border-radius: 8px;
+  color: #fff;
+}
+
+input[type="submit"] {
+  background-color: gold;
+  color: black;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #e5c100;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer a img {
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+footer a img:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  div {
+    padding: 15px;
+  }
+
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
